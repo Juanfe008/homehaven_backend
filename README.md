@@ -1,6 +1,6 @@
 # Clonar el repositorio
-git clone - URL del repositorio
-cd nombre-del-repositorio
+- git clone URL del repositorio
+- cd nombre-del-repositorio
 
 # Crear un entorno virtual
 python -m venv env
@@ -27,3 +27,11 @@ python manage.py migrate
 
 # Corre el servidor
 python manage.py runserver
+
+# Crea una aplicación de la siguiente manera:
+## Creación de la app:
+python manage.py startapp nombre_de_la_app
+## Crea los archivos serializer.py y urls.py dentro de la app a partir del example.
+## Migrar la app:
+- python manage.py makemigrations
+- python manage.py migrate
