@@ -6,10 +6,10 @@
 python -m venv env
 
 # Activar el entorno virtual
--En Windows:
+- En Windows:
 env\Scripts\activate
 
--En macOS/Linux:
+- En macOS/Linux:
 source env/bin/activate
 
 # Instala las dependencias
@@ -30,8 +30,8 @@ python manage.py runserver
 
 # Crea una aplicación de la siguiente manera:
 ## Creación de la app:
-python manage.py startapp nombre_de_la_app
-## Crea los archivos serializer.py y urls.py dentro de la app a partir del example.
+- python manage.py startapp nombre_de_la_app
+- Crea los archivos serializer.py y urls.py dentro de la app a partir del example.
 ## Migrar la app:
 - python manage.py makemigrations
 - python manage.py migrate
