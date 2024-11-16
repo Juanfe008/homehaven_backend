@@ -8,5 +8,5 @@ router.register(r'usuarios', views.UsuariosView, 'usuarios')
 
 # todo esto genera las consultas POST, GET, PUT, etc
 urlpatterns = [
-    path('api/v1/', include(router.urls)),
+    path('v1/', include(router.urls)),
 ]
