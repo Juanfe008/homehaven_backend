@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     #Apps:
     'app_example',
+    'registros'
 ]
 
 MIDDLEWARE = [
